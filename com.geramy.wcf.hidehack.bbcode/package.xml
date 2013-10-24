@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.geramy.wcf.hidehack.bbcode" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename language="de"><![CDATA[BBCode HideHack]]></packagename>
+		<packagename language="en"><![CDATA[bbcode HideHack]]></packagename>
+		<packagedescription language="de"><![CDATA[Fügt einen Versteckten Container, dessen Inhalt nur von bestimmten Usergruppen gelesen werden kann, als BBCode hinzu]]></packagedescription>
+		<packagedescription language="en"><![CDATA[Adds an HideHack bbcode]]></packagedescription>
+		<version>1.0.0 Beta 1</version>
+		<date>2013-10-24</date>
+		<plugin>com.woltlab.wcf.bbcode</plugin>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[geramy]]></author>
+		<authorurl><![CDATA[http://www.terratex.eu]]></authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 Beta 10">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="file">files.tar</instruction>
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="bbcode">xml/bbcode.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+
+
+</package>
