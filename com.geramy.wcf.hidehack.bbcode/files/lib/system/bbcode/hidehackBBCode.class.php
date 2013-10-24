@@ -16,9 +16,12 @@ class hidehackBBCode extends AbstractBBCode {
 * @see wcf\system\bbcode\IBBCode::getParsedTag()
 */
     public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser) {
+        $debug="";
 
+        $session=WCF::getSession();
+        $debug=print_r($session,true);
 
-
+        WCF::getTPL()->assign("debug",$debug);
         if ($parser->getOutputType() == 'text/html') {
             WCF::getTPL()->assign(array('minimal' => false));
             return WCF::getTPL()->fetch('hidehackBBCodeTag');

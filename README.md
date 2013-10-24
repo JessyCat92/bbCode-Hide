@@ -24,3 +24,4 @@ Spätere Versionen
 ============
 - HideHack durch Liken sichtbar machen (sofern Möglich)
 - HideHack durch Posten sichtbar (sofern Möglich)
+- HideHack setting: User kann per Parameter Like-Bedingung anschalten
