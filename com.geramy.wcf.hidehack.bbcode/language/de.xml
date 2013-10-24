@@ -7,4 +7,4 @@
         <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Zeige Registrierungs und Loginlink in der Hide-Meldung. (nur wenn User ausgeloggt ist)]]></item>
         <item name="wcf.acp.option.category.message.hidehack"><![CDATA[HideHack]]></item>
     </category>
-</language> 
+</language>
