@@ -5,6 +5,8 @@
     </category>
     <category name="wcf.acp.option">
         <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Zeige Registrierungs und Loginlink in der Hide-Meldung. (nur wenn User ausgeloggt ist)]]></item>
+        <item name="wcf.acp.option.hidehack_like"><![CDATA[zeigt Inhalt nur, wenn Beitrag vom User geliked wurde.]]></item>
+        <item name="wcf.acp.option.hidehack_answer"><![CDATA[zeigt Inhalt nur, wenn User im Thread eine Antwort verfasst hat.]]></item>
         <item name="wcf.acp.option.category.message.hidehack"><![CDATA[HideHack]]></item>
     </category>
     <category name="wcf.acp.group">

@@ -6,6 +6,8 @@
 
     <category name="wcf.acp.option">
         <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Show register and login link in hidebox. (only not loggedin users)]]></item>
+        <item name="wcf.acp.option.hidehack_like"><![CDATA[shows content, if user has liked the post]]></item>
+        <item name="wcf.acp.option.hidehack_answer"><![CDATA[shows content, if user has anwsered in the same thread]]></item>
         <item name="wcf.acp.option.category.message.hidehack"><![CDATA[HideHack]]></item>
     </category>
     <category name="wcf.acp.group">
