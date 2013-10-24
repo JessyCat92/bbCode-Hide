@@ -3,7 +3,7 @@
 	<import>
 		<bbcode name="accordion">
 			<classname>wcf\system\bbcode\hidehackBBCode</classname>
-			<wysiwygicon>hidehackBBCodeIcon.png</wysiwygicon>
+			<wysiwygicon>hidehackicon.png</wysiwygicon>
 			<buttonlabel>wcf.bbcode.buttonLabelHideHack</buttonlabel>
             <attributes>
                 <attribute name="0"></attribute>
