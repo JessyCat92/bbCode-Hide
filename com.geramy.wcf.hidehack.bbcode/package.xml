@@ -24,6 +24,7 @@
 		<instruction type="template">templates.tar</instruction>
 		<instruction type="bbcode">xml/bbcode.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
+        <instruction type="option">xml/option.xml</instruction>
 	</instructions>
 
 

@@ -15,10 +15,12 @@ Settings:
 Unter Optionen / Nachrichten / Neuer Tab: Hide-Hack
 - HideHack mit Registrierungs und Login hinweis versehen
 
-für Später:
-- HideHack durch Liken sichtbar machen (sofern Möglich)
-- HideHack durch Posten sichtbar (sofern Möglich)
-
 Berechtigungen:
 ================
 - HideHack immer sichtbar
+
+
+Spätere Versionen
+============
+- HideHack durch Liken sichtbar machen (sofern Möglich)
+- HideHack durch Posten sichtbar (sofern Möglich)

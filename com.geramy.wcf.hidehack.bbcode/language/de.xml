@@ -3,4 +3,7 @@
     <category name="wcf.bbcode">
         <item name="wcf.bbcode.buttonLabelHideHack"><![CDATA[Fügt den Versteckten Container ein.]]></item>
     </category>
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Zeige Registrierungs und Loginlink in der Hide-Meldung.]]></item>
+    </category>
 </language>

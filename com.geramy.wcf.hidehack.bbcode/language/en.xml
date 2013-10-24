@@ -3,4 +3,8 @@
 	<category name="wcf.bbcode">
 		<item name="wcf.bbcode.buttonLabelHideHack"><![CDATA[include hidehack bbcode ]]></item>
 	</category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Show register and login link in hidebox. (only not loggedin users)]]></item>
+    </category>
 </language>
