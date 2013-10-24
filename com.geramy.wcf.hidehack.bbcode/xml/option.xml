@@ -2,14 +2,14 @@
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
     <import>
         <categories>
-            <category name="example.page">
-                <parent>example</parent>
+            <category name="message.hidehack">
+                <parent>message</parent>
             </category>
         </categories>
 
         <options>
             <option name="hidehack_showregisterlink">
-                <categoryname></categoryname>
+                <categoryname>message.hidehack</categoryname>
                 <optiontype>boolean</optiontype>
                 <defaultvalue>1</defaultvalue>
             </option>
