@@ -10,6 +10,6 @@
     </category>
     <category name="wcf.acp.group">
         <item name="wcf.acp.group.option.user.user.message.hidehack.canSeeHide"><![CDATA[can always see HideHack content]]></item>
-        <item name="wcf.acp.group.option.category.user.user.message.hidehack"><![CDATA[HideHack]]></item>
+        <item name="wcf.acp.group.option.category.user.message.hidehack"><![CDATA[HideHack]]></item>
     </category>
 </language>

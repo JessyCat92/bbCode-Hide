@@ -20,7 +20,10 @@ class hidehackBBCode extends AbstractBBCode {
 
         $session=WCF::getSession();
         $debug=print_r($session,true);
+//        $session->getPermission("user.user.message.hidehack.canSeeHide");  //auslesen Ob immer sehen darf
+//        $session->getUser()->__get("userID") //eingeloggt?
 
+        
         WCF::getTPL()->assign("debug",$debug);
         if ($parser->getOutputType() == 'text/html') {
             WCF::getTPL()->assign(array('minimal' => false));
