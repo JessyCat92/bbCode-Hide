@@ -3,15 +3,13 @@
         <category name="wcf.bbcode">
             <item name="wcf.bbcode.buttonLabelHideHack"><![CDATA[Ajoute le BBCode Contenu Caché ]]></item>
             <item name="wcf.bbcode.notsee"><![CDATA[Der Author hat diesen Text versteckt.]]></item>
-            <item name="wcf.bbcode.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>
             <item name="wcf.bbcode.anwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen, um den Inhalt zu sehen.]]></item>
-            <item name="wcf.bbcode.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>
             <item name="wcf.bbcode.registerlogin"><![CDATA[Zum Einloggen oder Registerieren hier klicken.]]></item>
         </category>
 
     <category name="wcf.acp.option">
         <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Montrer le lien d'inscription et de connexion dans la boîte du Contenu Caché. (Uniquement les utilisateur non connectés)]]></item>
-        <item name="wcf.acp.option.hidehack_like"><![CDATA[Montrer le Contenu Caché si l'utilisateur aime ce message]]></item>
+        <!--<item name="wcf.acp.option.hidehack_like"><![CDATA[Montrer le Contenu Caché si l'utilisateur aime ce message]]></item>-->
         <item name="wcf.acp.option.hidehack_answer"><![CDATA[Montrer le Contenu Caché si l'utilisateur a répondu à cette discussion]]></item>
         <item name="wcf.acp.option.category.message.hidehack"><![CDATA[Contenu Caché]]></item>
     </category>

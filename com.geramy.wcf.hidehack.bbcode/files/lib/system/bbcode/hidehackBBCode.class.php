@@ -2,6 +2,7 @@
 namespace wcf\system\bbcode;
 use wcf\system\WCF;
 use wbb\data\post\PostList;
+use wcf\system\menu\page\PageMenu;
 
 /**
 * Parses the progressBarBBCode bbcode tag.
@@ -74,7 +75,7 @@ class hidehackBBCode extends AbstractBBCode {
         WCF::getTPL()->assign("hidehack_cansee",$canSee);
         WCF::getTPL()->assign("hidehack_loginmessage",$isLoggedIn);
 
-
+        WCF::getTPL()->assign("hidehack_link",PageMenu::getInstance()->getLandingPage()->getLink());
 
         if ($parser->getOutputType() == 'text/html') {
             WCF::getTPL()->assign(array('minimal' => false));

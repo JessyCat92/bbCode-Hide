@@ -3,15 +3,12 @@
 	<category name="wcf.bbcode">
 		<item name="wcf.bbcode.buttonLabelHideHack"><![CDATA[include hidehack bbcode ]]></item>
         <item name="wcf.bbcode.notsee"><![CDATA[Der Author hat diesen Text versteckt.]]></item>
-        <item name="wcf.bbcode.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>
         <item name="wcf.bbcode.anwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen, um den Inhalt zu sehen.]]></item>
-        <item name="wcf.bbcode.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>
         <item name="wcf.bbcode.registerlogin"><![CDATA[Zum Einloggen oder Registerieren hier klicken.]]></item>
 	</category>
 
     <category name="wcf.acp.option">
         <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Show register and login link in hidebox. (only not loggedin users)]]></item>
-        <item name="wcf.acp.option.hidehack_like"><![CDATA[shows content, if user has liked the post]]></item>
         <item name="wcf.acp.option.hidehack_answer"><![CDATA[shows content, if user has anwsered in the same thread]]></item>
         <item name="wcf.acp.option.category.message.hidehack"><![CDATA[HideHack]]></item>
     </category>
