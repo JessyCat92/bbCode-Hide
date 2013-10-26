@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="fr" languagename="Français" countrycode="fr">
+        <category name="wcf.bbcode">
+                <item name="wcf.bbcode.buttonLabelHideHack"><![CDATA[Ajoute le BBCode Contenu Caché ]]></item>
+        </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Montrer le lien d'inscription et de connexion dans la boîte du Contenu Caché. (Uniquement les utilisateur non connectés)]]></item>
+        <item name="wcf.acp.option.hidehack_like"><![CDATA[Montrer le Contenu Caché si l'utilisateur aime ce message]]></item>
+        <item name="wcf.acp.option.hidehack_answer"><![CDATA[Montrer le Contenu Caché si l'utilisateur a répondu à cette discussion]]></item>
+        <item name="wcf.acp.option.category.message.hidehack"><![CDATA[Contenu Caché]]></item>
+    </category>
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.user.user.message.hidehack.canSeeHide"><![CDATA[Peut toujours voir le Contenu Caché]]></item>
+        <item name="wcf.acp.group.option.category.user.message.hidehack"><![CDATA[Contenu Caché]]></item>
+    </category>
+</language>
