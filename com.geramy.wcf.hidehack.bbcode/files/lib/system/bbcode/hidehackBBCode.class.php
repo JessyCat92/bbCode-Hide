@@ -18,18 +18,16 @@ class hidehackBBCode extends AbstractBBCode {
 * @see wcf\system\bbcode\IBBCode::getParsedTag()
 */
     public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser) {
-        $debug="";
+
 
         $session=WCF::getSession();
 
         $canSee=false;
         $needLikeCheck=false;
 
-        $debug=print_r($session,true);
-//        $session->getPermission("user.user.message.hidehack.canSeeHide");  //auslesen Ob immer sehen darf
-//        $session->getUser()->__get("userID") //eingeloggt?
         //LINK LOGIN: /index.php/Login/
         //LINK REGISTER: /index.php/Register/
+
         $userID=$session->getUser()->__get("userID");
         if($userID==0){
             $isLoggedIn=false;
@@ -69,13 +67,12 @@ class hidehackBBCode extends AbstractBBCode {
             }
         }
 
+        $uid=uniqid("hidehack");
 
-
+        WCF::getTPL()->assign("hidehack_id",$uid);
         WCF::getTPL()->assign("hidehack_likeneeded",$needLikeCheck);
         WCF::getTPL()->assign("hidehack_cansee",$canSee);
         WCF::getTPL()->assign("hidehack_loginmessage",$isLoggedIn);
-
-        WCF::getTPL()->assign("debug",$debug);
 
 
 
