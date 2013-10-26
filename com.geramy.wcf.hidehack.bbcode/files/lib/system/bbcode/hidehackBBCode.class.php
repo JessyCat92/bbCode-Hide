@@ -1,6 +1,8 @@
 <?php
 namespace wcf\system\bbcode;
 use wcf\system\WCF;
+use wbb\data\post\PostList;
+
 /**
 * Parses the progressBarBBCode bbcode tag.
 *
@@ -28,8 +30,8 @@ class hidehackBBCode extends AbstractBBCode {
 //        $session->getUser()->__get("userID") //eingeloggt?
         //LINK LOGIN: /index.php/Login/
         //LINK REGISTER: /index.php/Register/
-
-        if($session->getUser()->__get("userID")==0){
+        $userID=$session->getUser()->__get("userID");
+        if($userID==0){
             $isLoggedIn=false;
             $canSee=false;
             $needLikeCheck=false;
@@ -43,16 +45,35 @@ class hidehackBBCode extends AbstractBBCode {
             else
             {
                 if(hidehack_answer){
+                    $threadID=$session->getUser()->__get("objectID");
 
-
-
-
+                    $postList = new PostList();
+                    $postList->getConditionBuilder()->add("post.userID = ?", array($userID));
+                    $postList->getConditionBuilder()->add("post.threadID = ?", array($threadID));
+                    $postList->getObjects();
+                    if(count($postList))
+                    {
+                        $canSee=true;
+                    }
+                    else
+                    {
+                        $canSee=false;
+                    }
                 }
-
+                if(hidehack_like){
+                    $needLikeCheck=true;
+                }
+                else{
+                    $needLikeCheck=false;
+                }
             }
         }
 
 
+
+        WCF::getTPL()->assign("hidehack_likeneeded",$needLikeCheck);
+        WCF::getTPL()->assign("hidehack_cansee",$canSee);
+        WCF::getTPL()->assign("hidehack_loginmessage",$isLoggedIn);
 
         WCF::getTPL()->assign("debug",$debug);
 
