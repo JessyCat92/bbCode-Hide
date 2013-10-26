@@ -1,5 +1,3 @@
-
-
 <div class="hidehack" id="hidehack_id">
     {if $hidehack_cansee}
         {$content}

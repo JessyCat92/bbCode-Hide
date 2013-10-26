@@ -6,7 +6,7 @@
         <!--<item name="wcf.bbcode.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>-->
         <item name="wcf.bbcode.anwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen, um den Inhalt zu sehen.]]></item>
         <!--<item name="wcf.bbcode.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>-->
-        <item name="wcf.bbcode.registerlogin"><![CDATA[Zum Einloggen oder Registerieren hier klicken.]]></item>
+        <item name="wcf.bbcode.registerlogin"><![CDATA[Zum Einloggen oder Registrieren hier klicken.]]></item>
     </category>
     <category name="wcf.acp.option">
         <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Zeige Registrierungs und Loginlink in der Hide-Meldung. (nur wenn User ausgeloggt ist)]]></item>
