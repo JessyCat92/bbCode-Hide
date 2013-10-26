@@ -69,7 +69,7 @@ class hidehackBBCode extends AbstractBBCode {
         }
 
         $uid=uniqid("hidehack");
-
+        WCF::getTPL()->assign("content",$content);
         WCF::getTPL()->assign("hidehack_id",$uid);
         WCF::getTPL()->assign("hidehack_likeneeded",$needLikeCheck);
         WCF::getTPL()->assign("hidehack_cansee",$canSee);
