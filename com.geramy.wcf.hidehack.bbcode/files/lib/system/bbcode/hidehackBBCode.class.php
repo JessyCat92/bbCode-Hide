@@ -30,7 +30,8 @@ class hidehackBBCode extends AbstractBBCode {
         //LINK REGISTER: /index.php/Register/
 
         $userID=$session->getUser()->__get("userID");
-        if($userID==0){
+        $activated=$session->getUser()->__get("activationCode");
+        if($userID==0 || $activated!=0){
             $isLoggedIn=false;
             $canSee=false;
             $needLikeCheck=false;
@@ -43,14 +44,16 @@ class hidehackBBCode extends AbstractBBCode {
             }
             else
             {
-                if(hidehack_answer){
-                    $threadID=$session->getUser()->__get("objectID");
+                if(HIDEHACK_ANSWER){
+                    $threadID=$session->objectID;
 
                     $postList = new PostList();
                     $postList->getConditionBuilder()->add("post.userID = ?", array($userID));
                     $postList->getConditionBuilder()->add("post.threadID = ?", array($threadID));
-                    $postList->getObjects();
-                    if(count($postList))
+                    $postList->getConditionBuilder()->add("post.isDeleted = ?", array(0));
+                    $postList->getConditionBuilder()->add("post.isDisabled = ?", array(0));
+                    $postList->readObjects();
+                    if(count($postList->getObjects())>0)
                     {
                         $canSee=true;
                     }
@@ -59,12 +62,16 @@ class hidehackBBCode extends AbstractBBCode {
                         $canSee=false;
                     }
                 }
-                if(hidehack_like){
-                    $needLikeCheck=true;
+                else
+                {
+                    $canSee=true;
                 }
-                else{
-                    $needLikeCheck=false;
-                }
+//                if(HIDEHACK_LIKE){
+//                    $needLikeCheck=true;
+//                }
+//                else{
+//                    $needLikeCheck=false;
+//                }
             }
         }
 
