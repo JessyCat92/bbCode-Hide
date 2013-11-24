@@ -5,8 +5,8 @@
 		<packagename language="en"><![CDATA[bbcode HideHack]]></packagename>
 		<packagedescription language="de"><![CDATA[Fügt einen Versteckten Container, dessen Inhalt nur von bestimmten Usergruppen gelesen werden kann, als BBCode hinzu]]></packagedescription>
 		<packagedescription language="en"><![CDATA[Adds an HideHack bbcode]]></packagedescription>
-		<version>1.0.0 Beta 1</version>
-		<date>2013-10-24</date>
+		<version>1.0.0 RC 1</version>
+		<date>2013-11-24</date>
 		<plugin>com.woltlab.wcf.bbcode</plugin>
 	</packageinformation>
 
@@ -16,7 +16,7 @@
 	</authorinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="2.0.0 Beta 11">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 Beta 10">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 	
 	<instructions type="install">
@@ -27,4 +27,6 @@
         <instruction type="option">xml/option.xml</instruction>
         <instruction type="userGroupOption">xml/userGroupOption.xml</instruction>
 	</instructions>
+
+
 </package>
