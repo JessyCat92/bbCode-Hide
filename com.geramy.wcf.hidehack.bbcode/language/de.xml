@@ -2,7 +2,7 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
     <category name="wcf.bbcode">
         <item name="wcf.bbcode.buttonLabelHideHack"><![CDATA[Fügt den Versteckten Container ein.]]></item>
-        <item name="wcf.bbcode.notsee"><![CDATA[Der Author hat diesen Text versteckt.]]></item>
+        <item name="wcf.bbcode.notsee"><![CDATA[Der Autor hat diesen Text versteckt.]]></item>
         <!--<item name="wcf.bbcode.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>-->
         <item name="wcf.bbcode.anwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen, um den Inhalt zu sehen.]]></item>
         <!--<item name="wcf.bbcode.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>-->
