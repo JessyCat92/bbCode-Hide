@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/bbcode.xsd">
 	<import>
-		<bbcode name="hidehack">
-			<classname>wcf\system\bbcode\hidehackBBCode</classname>
-			<wysiwygicon>hidehackicon.png</wysiwygicon>
-			<buttonlabel>wcf.bbcode.buttonLabelHideHack</buttonlabel>
-            <attributes>
-                <attribute name="0"></attribute>
-            </attributes>
-		</bbcode>
+        <bbcode name="hide">
+            <classname>wcf\system\bbcode\hideBBCode</classname>
+            <wysiwygicon>hideicon.png</wysiwygicon>
+            <buttonlabel>wcf.bbcode.buttonLabelHide</buttonlabel>
+        </bbcode>
+
+        <!--Für Versionen aus der Beta von Woltlab -->
+        <bbcode name="hide">
+            <classname>wcf\system\bbcode\hideBBCode</classname>
+        </bbcode>
+
 	</import>
 </data>

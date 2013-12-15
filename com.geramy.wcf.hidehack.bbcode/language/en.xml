@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en" languagename="English" countrycode="en">
 	<category name="wcf.bbcode">
-		<item name="wcf.bbcode.buttonLabelHideHack"><![CDATA[include hidehack bbcode ]]></item>
+		<item name="wcf.bbcode.buttonLabelHide"><![CDATA[include hide bbcode ]]></item>
         <item name="wcf.bbcode.notsee"><![CDATA[The author has hidden this content.]]></item>
         <!--<item name="wcf.bbcode.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>-->
         <item name="wcf.bbcode.anwser"><![CDATA[You must answer to this post, to see the content.]]></item>
@@ -10,13 +10,13 @@
 	</category>
 
     <category name="wcf.acp.option">
-        <item name="wcf.acp.option.hidehack_showregisterlink"><![CDATA[Show register and login link in hidebox. (only not loggedin users)]]></item>
-        <!--<item name="wcf.acp.option.hidehack_like"><![CDATA[zeigt Inhalt nur, wenn Beitrag vom User geliked wurde.]]></item>-->
-        <item name="wcf.acp.option.hidehack_answer"><![CDATA[shows content, if user has anwsered in the same thread]]></item>
-        <item name="wcf.acp.option.category.message.hidehack"><![CDATA[HideHack]]></item>
+        <item name="wcf.acp.option.hide_showregisterlink"><![CDATA[Show register and login link in hidebox. (only not loggedin users)]]></item>
+        <!--<item name="wcf.acp.option.hide_like"><![CDATA[zeigt Inhalt nur, wenn Beitrag vom User geliked wurde.]]></item>-->
+        <item name="wcf.acp.option.hide_answer"><![CDATA[shows content, if user has anwsered in the same thread]]></item>
+        <item name="wcf.acp.option.category.message.hide"><![CDATA[HideHack]]></item>
     </category>
     <category name="wcf.acp.group">
-        <item name="wcf.acp.group.option.user.user.message.hidehack.canSeeHide"><![CDATA[can always see HideHack content]]></item>
-        <item name="wcf.acp.group.option.category.user.message.hidehack"><![CDATA[HideHack]]></item>
+        <item name="wcf.acp.group.option.user.user.message.hide.canSeeHide"><![CDATA[can always see HideHack content]]></item>
+        <item name="wcf.acp.group.option.category.user.message.hide"><![CDATA[HideHack]]></item>
     </category>
 </language>
