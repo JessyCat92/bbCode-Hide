@@ -1,19 +1,19 @@
-bbCode-Hide-Hack
+bbCode-Hide
 ================
 
-BBCode welches den Inhalt nur bestimmten Usergruppen anzeigt, die das Gruppenrecht "Kann Hide-Hack Inhalt sehen" besitzt
- todo: layout
+BBCode welches den Inhalt nur bestimmten Usergruppen anzeigt, die das Gruppenrecht "Kann Hide Inhalt sehen" besitzen, zeigt
+
 
 Features
 ----------
 ###Settings:
-- HideHack Register/Login Link Option
-- HideHack Antwort Option
+- Hide Register/Login Link Option
+- Hide Antwort Option
 
 ###Berechtigungen:
-- HideHack immer sichtbar
+- Hide immer sichtbar
 
 Spätere Versionen
 -------------------
-- HideHack durch Liken sichtbar machen (sofern Möglich)
-- HideHack setting: User kann per Parameter Like-Bedingung anschalten
+- Hide durch Liken sichtbar machen (sofern Möglich)
+- Hide setting: User kann per Parameter Like-Bedingung anschalten
