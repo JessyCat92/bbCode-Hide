@@ -8,7 +8,7 @@
         </bbcode>
 
         <!--Für Versionen aus der Beta von Woltlab -->
-        <bbcode name="hide">
+        <bbcode name="hidehack">
             <classname>wcf\system\bbcode\hideBBCode</classname>
         </bbcode>
 
