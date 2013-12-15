@@ -13,10 +13,10 @@
         <item name="wcf.acp.option.hide_showregisterlink"><![CDATA[Show register and login link in hidebox. (only not loggedin users)]]></item>
         <!--<item name="wcf.acp.option.hide_like"><![CDATA[zeigt Inhalt nur, wenn Beitrag vom User geliked wurde.]]></item>-->
         <item name="wcf.acp.option.hide_answer"><![CDATA[shows content, if user has anwsered in the same thread]]></item>
-        <item name="wcf.acp.option.category.message.hide"><![CDATA[HideHack]]></item>
+        <item name="wcf.acp.option.category.message.hide"><![CDATA[Hide]]></item>
     </category>
     <category name="wcf.acp.group">
-        <item name="wcf.acp.group.option.user.user.message.hide.canSeeHide"><![CDATA[can always see HideHack content]]></item>
-        <item name="wcf.acp.group.option.category.user.message.hide"><![CDATA[HideHack]]></item>
+        <item name="wcf.acp.group.option.user.user.message.hide.canSeeHide"><![CDATA[can always see Hide content]]></item>
+        <item name="wcf.acp.group.option.category.user.message.hide"><![CDATA[Hide]]></item>
     </category>
 </language>
