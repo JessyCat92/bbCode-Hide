@@ -12,7 +12,7 @@
                     {lang}wcf.bbcode.notsee{/lang} <a href="{$hide_link}index.php/Login/">{lang}wcf.bbcode.registerlogin{/lang}</a>
                 {elseif $hide_loginmessage==false && HIDE_SHOWREGISTERLINK==false}
                     {lang}wcf.bbcode.notsee{/lang}
-                {elseif HIDEHACK_ANSWER==true}
+                {elseif HIDE_ANSWER==true}
                     {lang}wcf.bbcode.notsee{/lang} {lang}wcf.bbcode.anwser{/lang}
                 {else}
                     {lang}wcf.bbcode.notsee{/lang}
