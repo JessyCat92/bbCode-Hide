@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="fr" languagename="Français" countrycode="fr">
         <category name="wcf.bbcode">
-            <item name="wcf.bbcode.buttonLabelHide"><![CDATA[Ajoute le BBCode Contenu Caché ]]></item>
-            <!--<item name="wcf.bbcode.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>-->
-            <item name="wcf.bbcode.notsee"><![CDATA[The author has hidden this content.]]></item>
-            <item name="wcf.bbcode.anwser"><![CDATA[You must answer to this post, to see the content.]]></item>
-            <!--<item name="wcf.bbcode.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>-->
-            <item name="wcf.bbcode.registerlogin"><![CDATA[To Login or Register, click here.]]></item>
+            <item name="wcf.bbcode.hide.buttonLabelHide"><![CDATA[Ajoute le BBCode Contenu Caché ]]></item>
+            <!--<item name="wcf.bbcode.hide.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>-->
+            <item name="wcf.bbcode.hide.notsee"><![CDATA[The author has hidden this content.]]></item>
+            <item name="wcf.bbcode.hide.anwser"><![CDATA[You must answer to this post, to see the content.]]></item>
+            <!--<item name="wcf.bbcode.hide.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>-->
+            <item name="wcf.bbcode.hide.registerlogin"><![CDATA[To Login or Register, click here.]]></item>
         </category>
 
     <category name="wcf.acp.option">

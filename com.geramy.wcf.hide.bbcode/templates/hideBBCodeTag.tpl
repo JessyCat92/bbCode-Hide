@@ -9,13 +9,13 @@
         {else}
             <div class="notshow">
                 {if $hide_loginmessage==false && HIDE_SHOWREGISTERLINK==true}
-                    {lang}wcf.bbcode.notsee{/lang} <a href="{$hide_link}index.php/Login/">{lang}wcf.bbcode.registerlogin{/lang}</a>
+                    {lang}wcf.bbcode.hide.notsee{/lang} <a href="{$hide_link}index.php/Login/">{lang}wcf.bbcode.hide.registerlogin{/lang}</a>
                 {elseif $hide_loginmessage==false && HIDE_SHOWREGISTERLINK==false}
-                    {lang}wcf.bbcode.notsee{/lang}
+                    {lang}wcf.bbcode.hide.notsee{/lang}
                 {elseif HIDE_ANSWER==true}
-                    {lang}wcf.bbcode.notsee{/lang} {lang}wcf.bbcode.anwser{/lang}
+                    {lang}wcf.bbcode.hide.notsee{/lang} {lang}wcf.bbcode.hide.anwser{/lang}
                 {else}
-                    {lang}wcf.bbcode.notsee{/lang}
+                    {lang}wcf.bbcode.hide.notsee{/lang}
                 {/if}
             </div>
         {/if}
