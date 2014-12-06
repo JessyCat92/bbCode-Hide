@@ -3,9 +3,9 @@
     <category name="wcf.bbcode">
         <item name="wcf.bbcode.hide.buttonLabelHide"><![CDATA[Fügt den Versteckten Container ein.]]></item>
         <item name="wcf.bbcode.hide.notsee"><![CDATA[Der Autor hat diesen Text versteckt.]]></item>
-        <!--<item name="wcf.bbcode.hide.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>-->
+        <item name="wcf.bbcode.hide.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>
         <item name="wcf.bbcode.hide.anwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen, um den Inhalt zu sehen.]]></item>
-        <!--<item name="wcf.bbcode.hide.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>-->
+        <item name="wcf.bbcode.hide.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>
         <item name="wcf.bbcode.hide.registerlogin"><![CDATA[Zum Einloggen oder Registrieren hier klicken.]]></item>
     </category>
     <category name="wcf.acp.option">

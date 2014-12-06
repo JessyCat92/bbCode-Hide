@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/templateListener.xsd">
+	<import>
+		<!-- JS Import -->
+		<templatelistener name="teaserJsImport">
+			<environment>user</environment>
+			<templatename>hideInclude</templatename>
+			<eventname>javascriptInit</eventname>
+			<templatecode><![CDATA[
+                data={};
+
+                $.each($(".show"), function(){
+                  var parentElement = $(this).parent();
+                  var searchID=null;
+                  while(true){
+                    console.log(parentElement);
+                    if(parentElement.attr("id")){
+                      if(parentElement.attr("id").substring(0, 4)=="post"){
+                         searchID=parentElement.attr("id");
+                         break;
+                      }
+                    }
+                        parentElement=parentElement.parent();
+                  }
+                  parentElement.find(".likeButton").click(function(){
+                     var searchHideId=$(this).attr("data-search-Hide-ID");
+                     var isActive=$(this).find('a').hasClass("active");
+                    if(!isActive){
+                        if(searchHideId){
+                                $(".show[data-search-Hide-ID='"+searchHideId+"']").html(
+                                    data[searchHideId]
+                                );
+                                $(".show[data-search-Hide-ID='"+searchHideId+"']").parent().find('.notshow').hide();
+                      }
+                        }
+                    else{
+                        if(searchHideId){
+                                $(".show[data-search-Hide-ID='"+searchHideId+"']").html(
+                                    ''
+                                );
+                                $(".show[data-search-Hide-ID='"+searchHideId+"']").hide();
+                      }
+                    }
+                  });
+                  $(this).attr("data-search-Hide-ID",searchID);
+                  data[searchID]=$(this).html();
+                  var likeButton=parentElement.find(".likeButton");
+                  likeButton.attr("data-search-Hide-ID",searchID);
+                  if(!likeButton.find('a').hasClass("active")){
+                    $(this).html('');
+                    $(this).hide();
+                  }
+                  else{
+                    $(this).parent().find('.notshow').hide();
+                  }
+
+                });
+
+            }]]>
+            </templatecode>
+		</templatelistener>
+		<!-- /JS Import -->
+	</import>
+</data>

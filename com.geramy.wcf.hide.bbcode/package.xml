@@ -5,8 +5,8 @@
 		<packagename language="en"><![CDATA[bbcode Hide]]></packagename>
 		<packagedescription language="de"><![CDATA[Fügt einen Versteckten Container, dessen Inhalt nur von bestimmten Usergruppen gelesen werden kann, als BBCode hinzu]]></packagedescription>
 		<packagedescription language="en"><![CDATA[Adds an Hide-bbcode]]></packagedescription>
-		<version>1.0.1</version>
-		<date>2013-12-15</date>
+		<version>1.1</version>
+		<date>2014-12-06</date>
 		<plugin>com.woltlab.wcf.bbcode</plugin>
 	</packageinformation>
 
@@ -26,11 +26,16 @@
         <instruction type="language">language/*.xml</instruction>
         <instruction type="option">xml/option.xml</instruction>
         <instruction type="userGroupOption">xml/userGroupOption.xml</instruction>
+        <instruction type="templateListener">xml/templateListener.xml</instruction>
     </instructions>
 
-    <instructions type="update" fromversion="1.0.0">
+    <instructions type="update"  fromversion="1.0.1" >
+        <instruction type="file">files.tar</instruction>
         <instruction type="template">templates.tar</instruction>
+        <instruction type="bbcode">xml/bbcode.xml</instruction>
+        <instruction type="language">language/*.xml</instruction>
+        <instruction type="option">xml/option.xml</instruction>
+        <instruction type="userGroupOption">xml/userGroupOption.xml</instruction>
+        <instruction type="templateListener">xml/templateListener.xml</instruction>
     </instructions>
-    <!-- Derzeit kein Update vorhanden -->
-
 </package>

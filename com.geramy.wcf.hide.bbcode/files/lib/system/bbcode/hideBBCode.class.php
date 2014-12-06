@@ -66,12 +66,13 @@ class hideBBCode extends AbstractBBCode {
                 {
                     $canSee=true;
                 }
-//                if(HIDE_LIKE){
-//                    $needLikeCheck=true;
-//                }
-//                else{
-//                    $needLikeCheck=false;
-//                }
+                if(HIDE_LIKE){
+                    $needLikeCheck=true;
+                    $canSee=true;
+                }
+                else{
+                    $needLikeCheck=false;
+                }
             }
         }
 

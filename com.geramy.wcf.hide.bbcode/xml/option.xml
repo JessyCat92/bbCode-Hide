@@ -13,11 +13,11 @@
                 <optiontype>boolean</optiontype>
                 <defaultvalue>1</defaultvalue>
             </option>
-            <!--<option name="hide_like">
+            <option name="hide_like">
                 <categoryname>message.hide</categoryname>
                 <optiontype>boolean</optiontype>
                 <defaultvalue>0</defaultvalue>
-            </option>-->
+            </option>
             <option name="hide_answer">
                 <categoryname>message.hide</categoryname>
                 <optiontype>boolean</optiontype>

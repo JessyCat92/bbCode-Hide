@@ -3,15 +3,15 @@
 	<category name="wcf.bbcode">
 		<item name="wcf.bbcode.hide.buttonLabelHide"><![CDATA[include hide bbcode ]]></item>
         <item name="wcf.bbcode.hide.notsee"><![CDATA[The author has hidden this content.]]></item>
-        <!--<item name="wcf.bbcode.hide.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>-->
+        <item name="wcf.bbcode.hide.like"><![CDATA[Xou have to like this post, to see the content.]]></item>
         <item name="wcf.bbcode.hide.anwser"><![CDATA[You must answer to this post, to see the content.]]></item>
-        <!--<item name="wcf.bbcode.hide.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>-->
+        <item name="wcf.bbcode.hide.likeanwser"><![CDATA[You have to answer on this thread and have to like this post.]]></item>
         <item name="wcf.bbcode.hide.registerlogin"><![CDATA[To Login or Register, click here.]]></item>
 	</category>
 
     <category name="wcf.acp.option">
         <item name="wcf.acp.option.hide_showregisterlink"><![CDATA[Show register and login link in hidebox. (only not loggedin users)]]></item>
-        <!--<item name="wcf.acp.option.hide_like"><![CDATA[zeigt Inhalt nur, wenn Beitrag vom User geliked wurde.]]></item>-->
+        <item name="wcf.acp.option.hide_like"><![CDATA[shows content, if user has liked the post.]]></item>
         <item name="wcf.acp.option.hide_answer"><![CDATA[shows content, if user has anwsered in the same thread]]></item>
         <item name="wcf.acp.option.category.message.hide"><![CDATA[Hide]]></item>
     </category>
