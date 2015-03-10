@@ -3,14 +3,14 @@
     <category name="wcf.bbcode">
         <item name="wcf.bbcode.hide.buttonLabelHide"><![CDATA[Fügt den Versteckten Container ein.]]></item>
         <item name="wcf.bbcode.hide.notsee"><![CDATA[Der Autor hat diesen Text versteckt.]]></item>
-        <item name="wcf.bbcode.hide.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen. <br/> ACHTUNG! Eine Garantie ist hier nicht gegeben, da der Inhalt nur ausgeblendet wird.]]></item>
+        <item name="wcf.bbcode.hide.like"><![CDATA[Du musst den Beitrag liken um den Inhalt zu sehen.]]></item>
         <item name="wcf.bbcode.hide.anwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen, um den Inhalt zu sehen.]]></item>
         <item name="wcf.bbcode.hide.likeanwser"><![CDATA[Du musst auf den Beitrag eine Antwort verfassen und den Beitrag liken, um den Inhalt zu sehen.]]></item>
         <item name="wcf.bbcode.hide.registerlogin"><![CDATA[Zum Einloggen oder Registrieren hier klicken.]]></item>
     </category>
     <category name="wcf.acp.option">
         <item name="wcf.acp.option.hide_showregisterlink"><![CDATA[Zeige Registrierungs und Loginlink in der Hide-Meldung. (nur wenn User ausgeloggt ist)]]></item>
-        <item name="wcf.acp.option.hide_like"><![CDATA[zeigt Inhalt nur, wenn Beitrag vom User geliked wurde.]]></item>
+        <item name="wcf.acp.option.hide_like"><![CDATA[zeigt Inhalt nur, wenn Beitrag vom User geliked wurde. <br/> ACHTUNG! Eine Garantie ist hier nicht gegeben, da der Inhalt nur ausgeblendet wird.]]></item>
         <item name="wcf.acp.option.hide_answer"><![CDATA[zeigt Inhalt nur, wenn User im Thread eine Antwort verfasst hat.]]></item>
         <item name="wcf.acp.option.category.message.hide"><![CDATA[Hide]]></item>
     </category>
