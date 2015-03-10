@@ -15,7 +15,7 @@
                 }
                 parentElement = parentElement.parent();
             }
-            parentElement.find(".dislikeButton").click(function () {
+            parentElement.find(".wcfDislikeButton").click(function () {
                 var searchHideId = $(this).attr("data-search-Hide-ID");
                 var isActive = $(this).find('a').hasClass("active");
                 if (searchHideId) {
@@ -27,7 +27,7 @@
                 }
 
             });
-            parentElement.find(".likeButton").click(function () {
+            parentElement.find(".wcfLikeButton").click(function () {
                 var searchHideId = $(this).attr("data-search-Hide-ID");
                 var isActive = $(this).find('a').hasClass("active");
                 if (!isActive) {
@@ -51,9 +51,9 @@
             });
             $(this).attr("data-search-Hide-ID", searchID);
             hideData[searchID] = $(this).html();
-            var likeButton = parentElement.find(".likeButton");
+            var likeButton = parentElement.find(".wcfLikeButton");
             likeButton.attr("data-search-Hide-ID", searchID);
-            var disLikeButton = parentElement.find(".dislikeButton");
+            var disLikeButton = parentElement.find(".wcfDislikeButton");
             disLikeButton.attr("data-search-Hide-ID", searchID);
             if (!likeButton.find('a').hasClass("active")) {
                 $(this).html('');
