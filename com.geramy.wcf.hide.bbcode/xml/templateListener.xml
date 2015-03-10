@@ -8,7 +8,7 @@
 			<eventname>javascriptInclude</eventname>
 			<templatecode><![CDATA[
                 {include file='__hideCodeJS'}
-            }]]>
+            ]]>
             </templatecode>
 		</templatelistener>
 		<!-- /JS Import -->
