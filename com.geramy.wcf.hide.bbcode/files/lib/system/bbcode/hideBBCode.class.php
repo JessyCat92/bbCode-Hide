@@ -9,8 +9,8 @@ use wcf\system\menu\page\PageMenu;
 *
 * @package com.geramy.wcf.progressBarBBCode.bbcode
 * @copyright geramy
-* @author geramy (mit Hilfe von anderen BBcode Plugins aufgebaut)
-* @license GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
+* @author geramy
+* @license CC-by-sa https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt
 * @category WCF
 * @parameter
 */
